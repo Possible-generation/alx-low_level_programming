@@ -4,11 +4,12 @@
 /**
  * main - Entry point
  * Description: checks on the last digit of the assigned var
- * REturn: always 0 (Success)
+ * Return: always 0 (Success)
  */
 int main(void)
 {
 	int n, m;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
