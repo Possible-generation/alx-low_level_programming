@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry piont
+ * main - Entry point
  * Description: print three number combination
- * REturn: always 0 (Success)
+ * Return: always 0 (Success)
  */
 int main(void)
 {
