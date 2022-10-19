@@ -3,7 +3,7 @@
 /**
  * print_times_table - Prnits the n times table
  *
- * @n: number times table
+ * @n:number times table
  *
  * Return: no return
  */
@@ -23,6 +23,7 @@
 				op = a * b;
 				_putchar(44);
 				_putchar(32);
+
 				if (op <= 9)
 				{
 					_putchar(32);
