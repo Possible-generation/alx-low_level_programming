@@ -3,6 +3,6 @@
 
 
 int _putchar(char c);
-void print_aalphabet(void);
+extern void print_alphabet(void);
 
 #endif
