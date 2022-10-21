@@ -4,5 +4,6 @@
 extern int _isupper(int c);
 extern int _isdigit(int c);
 extern int mul(int a, int b);
+void print_numbers(void);
 
 #endif
