@@ -1,11 +1,11 @@
 #include "main"
 
 /**
- * print_most_numbers - print number from zero 0-9
+ * print_numbers - print number from zero 0-9
  * Return: void
  */
 
-void print_most_numbers(void)
+void print_numbers(void)
 {
 	char c;
 
