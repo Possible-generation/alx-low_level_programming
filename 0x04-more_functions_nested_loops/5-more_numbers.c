@@ -1,21 +1,25 @@
 #include "main"
 
 /**
- * more_numbers - print more numbers
+ * more_numbers - print more number
+ * put _putchar just three times
+ * Return: 10 times of the number
  */
 
 void more_numbers(void)
 {
-	int i, j;
+	int a, b;
 
-	for (i = 1; i <= 10; i++)
+	for (a = 0; a <= 10; a++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (b = 0; b <= 14; b++)
 		{
-			if (j >= 10)
-				putchar('1');
-			putchar (j % 10 + '0');
+			if (b > 9)
+			{
+				putchar((b / 10) + '0');
+				putchar((b % 10) + '0');
+			}
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 }
