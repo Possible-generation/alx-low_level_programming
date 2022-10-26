@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void rverse_array (int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int i, c;
 
@@ -15,6 +15,6 @@ void rverse_array (int *a, int n)
 	{
 		c = a[i];
 		a[i] = a[n - 1 - i];
-		a[n - 1 -i] = c;
+		a[n - 1 - i] = c;
 	}
 }
