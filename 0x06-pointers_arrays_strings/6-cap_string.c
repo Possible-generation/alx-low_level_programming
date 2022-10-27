@@ -17,13 +17,13 @@ char *cap_string(char *s)
 		if (*(s + 1) >= 'a' && *(s + 1) <= 'z')
 		{
 			if (i == 0)
-				*(s + i) -= 'a' - 'A';
+				*(s + i) -= 'a' - 'A'iiiiiii;
 			else
 			{
 				for (j = 0; j <= 12; j++)
 				{
 					if (a[j] == *(s + i - 1))
-						* (s + 1) -= 'a' - 'A';
+						*(s + 1) -= 'a' - 'A';
 				}
 			}
 		}
