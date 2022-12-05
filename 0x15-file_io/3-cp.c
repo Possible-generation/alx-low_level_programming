@@ -16,6 +16,7 @@ void check97(int argc)
 		exit(97);
 	}
 }
+
 /**
  * check98 - checks that file_from exists and can be read
  * @check: checks if true of false
@@ -37,6 +38,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 		exit(98);
 	}
 }
+
 /**
  * check99 - checks that file_to was created and/or can be written to
  * @check: checks if true of false
@@ -46,7 +48,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
  *
  * Return: void
  */
-void check99(size_t check, char *file, int fd_from, int fd_to)
+void check99(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
 	{
@@ -66,7 +68,6 @@ void check99(size_t check, char *file, int fd_from, int fd_to)
  *
  * Return: void
  */
-
 void check100(int check, int fd)
 {
 	if (check == -1)
@@ -75,7 +76,6 @@ void check100(int check, int fd)
 		exit(100);
 	}
 }
-
 /**
  * main - opies the content of a file to another file.
  * @argc: number of arguments passed
@@ -83,7 +83,6 @@ void check100(int check, int fd)
  *
  * Return: 0 on success
  */
-
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to, close_to, close_from;
